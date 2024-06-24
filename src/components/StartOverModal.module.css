@@ -1,0 +1,66 @@
+.modaloverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  height: fit-content;
+  text-align: center;
+}
+
+.modalcontent h4 {
+  color: #4d4d4d;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+
+.modalcontent p {
+  color: #4d4d4d;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.buttContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.modalcontent button {
+  padding: 0 1.5rem;
+  background: none;
+  color: #4d4d4d;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Mulish;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

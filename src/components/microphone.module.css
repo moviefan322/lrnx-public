@@ -1,0 +1,54 @@
+/* microphone.module.css */
+.container{
+  display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.microphone {
+    background-color: #28a745;
+    border: none;
+    border-radius: 50%;
+    /* margin-top: 100px; */
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .micContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fas.fa-microphone {
+    font-size: 25rem;
+  }
+   
+
+   .microphone:hover {
+    background-color: #218838;
+  } 
+  
+  .microphone:active {
+    background-color: #1e7e34;
+  } 
+  
+  .microphone i {
+    color: #ffffff;
+    font-size: 2.5rem;
+  }
+  

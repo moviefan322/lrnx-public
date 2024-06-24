@@ -1,0 +1,11 @@
+.timer {
+  margin: 2rem auto -2rem auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.flex-item {
+  flex: 1; /* Makes each div take up equal space */
+  padding-top: 20%;
+  padding-bottom: 20%;
+}

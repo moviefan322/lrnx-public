@@ -1,0 +1,37 @@
+/* Button.module.css */
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 1.5rem; /* adjust as needed */
+  background-color: #3f75ff;
+  color: white;
+  font-family: "Mulish";
+  border: none;
+  border-radius: 9999px; /* makes it fully rounded */
+  cursor: pointer;
+  transition: background-color 0.2s;
+  height: 3rem;
+}
+
+.button:hover {
+  background-color: darkblue; /* adjust the hover color as needed */
+}
+
+.icon {
+  margin-right: 1rem; /* spacing between the icon and the text */
+  fill: white; /* the color of the SVG icon */
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonContainer button {
+  margin-bottom: 1rem;
+  width: 60%;
+}
+
+.button:not(:last-child) {
+  margin-right: 1rem; /* Adjust the value as per your requirement */
+}

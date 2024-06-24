@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 0 -35%;
+}
+
+.container h2 {
+  text-align: left;
+  /* font-size: 1.6rem; */
+  font-weight: 500;
+}
+
+.voicesList {
+  line-height: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.voicesListItem {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 3rem auto;
+}
+
+/* .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: green;
+  margin-right: 3rem;
+} */
+
+.voiceName {
+  font-size: 1.3rem;
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+  line-height: 0.6rem;
+}
+
+.error {
+  color: red;
+  font-size: 1.2rem;
+  font-family: "Muli", sans-serif;
+  text-align: center;
+  border: red 2px solid;
+  margin-top: 1.5rem;
+}
+
+.sexButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sexButtons button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Muli, sans-serif";
+  border: none;
+  margin: 1rem 0;
+  font-size: 18px;
+  font-weight: 700;
+  width: 224px;
+  flex-shrink: 0;
+  align-self: center;
+  text-align: left;
+  background-color: #e9f4ff;
+  padding: 1rem;
+  border-radius: 16px;
+  color: #3f75ff;
+  text-justify: center;
+  vertical-align: bottom;
+}
+
+.viewAll {
+  font-size: 1.3rem;
+  text-align: left;
+  margin-top: 4rem;
+  background: none;
+  border: none;
+  font-family: "Muli, sans-serif";
+  margin: 4rem 0 0 2rem;
+}
+
+.sexH2 {
+  margin-bottom: 3rem;
+  color: #404040;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.selectedVoice {
+  color: #3f75ff;
+  font-weight: 700;
+}
+
+.nextButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 115px;
+  height: 39px;
+  border-radius: 20px;
+  background: #3f75ff;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: right;
+  padding-left: 1rem;
+}
+
+.nextButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.nextDiv {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,41 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+/* mulish font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+#__next h1,
+#__next h2,
+#__next h3,
+#__next h4,
+#__next h5,
+#__next h6 {
+  color: #404040;
+  font-family: 'Poppins';
+}
+
+div[class*="VoiceSelector"] > button {
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div[class*="VoiceSelector"] > button > svg {
+  margin-right: 8px;
+}
+
+div[class*="sexButtons"] > button {
+  width: 100%;
+  font-weight: 500;
+  font-family: 'Mulish' !important;
+}
+
+div[class*="sexButtons"] > button > svg {
+  margin-top: 5px;
+}
+
+div.sexButtons > button {
+  font-weight: 500;
+  font-family: 'Mulish' !important;
+}
+
